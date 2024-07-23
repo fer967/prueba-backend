@@ -10,9 +10,9 @@ app.use(express.json());   // servidor puede recibir .json al momento de la peti
 
 const clientes = [
     {id:"1", nombre:"carlos", apellido:"gardel"},
-    {id:"2", nombre:"laura", apellido:"gomez"},
-    {id:"3", nombre:"ana", apellido:"ponce"},
-    {id:"4", nombre:"andres", apellido:"leon"}
+    {id:"2", nombre:"laura", apellido:"gomez"}
+    
+    
 ];
 
 // ruta raiz trae todos los clientes
